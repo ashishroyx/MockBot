@@ -24,12 +24,13 @@ const Detail = () => {
     },
   ];
   return (
-    <div className="w-full text-black -mt-10 sm:-mt-20 lg:-mt-15">
+    <div className="w-full text-black -mt-15 sm:-mt-20 lg:-mt-25">
 
       <div className="mt-4 sm:mt-6 md:mt-10 lg:mt-12">
         <img
           src="/hero1.png"
           alt="Hero"
+          width={900}
           className="mx-auto max-w-xs sm:max-w-md md:max-w-lg lg:max-w-4xl h-auto lg:h-150 "
         />
       </div>
@@ -54,7 +55,7 @@ const Detail = () => {
       </div>
 
       </div>
-      <div className='text-center bg-[#d4d4d8]'>
+      <div className='text-center bg-[#d4d4d8]  '>
         <h1>- Ashish Kumar Roy</h1>
       </div>
     </div>

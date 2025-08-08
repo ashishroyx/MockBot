@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='mt-6 font-semibold text-center text-black'>
+            <div className='mt-6 font-semibold text-center text-black mb-10'>
                 <span className=''>MockBot helps you tackle role-specific questions, explore deeper insights on demand,
                
                </span>
