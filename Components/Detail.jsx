@@ -24,12 +24,13 @@ const Detail = () => {
     },
   ];
   return (
-    <div className="w-full h-full text-black -mt-40">
+    <div className="w-full text-black -mt-10 sm:-mt-20 lg:-mt-15">
+
       <div className="mt-4 sm:mt-6 md:mt-10 lg:mt-12">
         <img
           src="/hero1.png"
           alt="Hero"
-          className="mx-auto w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-4xl h-auto lg:h-150"
+          className="mx-auto max-w-xs sm:max-w-md md:max-w-lg lg:max-w-4xl h-auto lg:h-150 "
         />
       </div>
       <div className='bg-gradient-to-b from-[#a1a1aa] to-[#d4d4d8] p-7 mt-10 '>
