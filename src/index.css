@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import "tailwindcss";
+
+
+
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-text {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  max-width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25rem;
+  font-weight: 800;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(270deg, #0ea5e9, #6366f1, #ec4899);
+  background-size: 600% 600%;
+  animation: gradient 8s ease infinite;
+  border-radius: inherit;
+}
+
+.text-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-bottom: 0.25rem;
+
+  background: linear-gradient(270deg, #0ea5e9, #6366f1, #ec4899);
+  background-size: 600% 600%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient 8s ease infinite;
+  font-size: 1.5rem;     /* default: mobile */
+  line-height: 2;
+}
+
+/* Tablet (min-width: 768px) */
+@media screen and (min-width: 768px) {
+  .text-content {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+}
+
+/* Laptop/Desktop (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  .text-content {
+    font-size: 4rem;
+    line-height: 1.4;
+  }
+}
+
+
+
+
+
+
