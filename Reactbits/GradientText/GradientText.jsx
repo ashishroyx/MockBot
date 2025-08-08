@@ -1,5 +1,5 @@
 // import "./GradientText.css";
-import '../../src/app.css'
+import '../../src/App.css'
 
 export default function GradientText({
   children,
