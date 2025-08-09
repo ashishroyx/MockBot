@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div className=' bg-white text-white w-full '>
+    <div className=' w-full bg-white'>
       <Navbar/>
       <Hero/>
       <Detail/>

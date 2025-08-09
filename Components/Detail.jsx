@@ -31,6 +31,7 @@ const Detail = () => {
           src="/hero1.png"
           alt="Hero"
           width={900}
+          loading='lazy'
           className="mx-auto max-w-xs sm:max-w-md md:max-w-lg lg:max-w-4xl h-auto lg:h-150 "
         />
       </div>

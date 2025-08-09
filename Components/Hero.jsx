@@ -10,8 +10,8 @@ const Hero = () => {
            
             <div >
                 <GradientText
-                    colors={["#18181b", "#27272a", "#3f3f46", "#52525b", "#18181b"]}
-                    animationSpeed={5   }
+                    colors={["#262626", "#27272a", "#d4d4d4", "#52525b", "#262626"]}
+                    animationSpeed={5}
                     showBorder={false}
                     className="custom-class boldonse-regular lg:text-6xl text-xl md:text-5xl leading-[2]"
                 >
