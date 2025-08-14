@@ -35,7 +35,7 @@ const Detail = () => {
           className="mx-auto max-w-xs sm:max-w-md md:max-w-lg lg:max-w-4xl h-auto lg:h-150 "
         />
       </div>
-      <div className='bg-gradient-to-b from-[#a1a1aa] to-[#d4d4d8] p-7 mt-10 '>
+      <div className='bg-gradient-to-b from-[#a1a1aa] to-[#fafafa] p-7 mt-10 '>
 
             <h2 className="text-center text-2xl md:text-3xl font-semibold text-black mb-8">
         Features That Make You Shine
@@ -56,7 +56,7 @@ const Detail = () => {
       </div>
 
       </div>
-      <div className='text-center bg-[#d4d4d8]  '>
+      <div className='text-center bg-[#fafafa]  '>
         <h1>- Ashish Kumar Roy</h1>
       </div>
     </div>

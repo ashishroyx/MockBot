@@ -4,7 +4,7 @@ import GradientText from '../Reactbits/GradientText/GradientText.jsx'
 
 const Hero = () => {
     return (
-        <div className=' p-5  bg-white w-full bg-gradient-to-b from-[#a1a1aa] to-[#d4d4d8]'>
+        <div className=' p-5  bg-white w-full bg-gradient-to-b from-[#a1a1aa] to-[#f5f5f5]'>
 
             <div >
            
