@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between align-middle p-5 bg-gradient-to-t from-[#a1a1aa] to-[#d4d4d8]  '>
 
-        <div className='text-xl dynapuff lg:text-3xl md:text-2xl text-black '>
+        <div className='text-xl dynapuff lg:text-3xl md:text-2xl text-black  '>
             <p className=''>MockBot.</p>
         </div>
 

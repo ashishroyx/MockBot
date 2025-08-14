@@ -47,10 +47,10 @@ const Detail = () => {
             key={index}
             className="bg-white rounded-xl shadow-sm p-5 border border-[#f4f4f4] hover:shadow-md transition-all duration-200"
           >
-            <h3 className="text-lg font-semibold mb-2 text-black">
+            <h3 className="text-lg font-bold mb-2 text-black">
               {feature.title}
             </h3>
-            <p className="text-gray-700">{feature.desc}</p>
+            <p className="text-black">{feature.desc}</p>
           </div>
         ))}
       </div>
